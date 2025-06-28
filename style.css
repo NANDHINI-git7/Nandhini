@@ -1,0 +1,496 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: white;
+}
+html,body{
+    overflow-x: hidden;
+}
+.header{
+    width: auto;
+}
+.h2{
+    background: rgb(121, 22, 22);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19;
+    font-style: normal;
+}
+.main{
+    width: auto;
+    border-bottom: 1.5px solid gainsboro;
+    height: 50px;
+}
+.cl{
+    height: 40px;
+    float: left;
+    width: 30%;
+}
+.cl>img{
+    height: 38px;
+    width: 75px;
+    padding: 0px 20px;
+}
+.icon{
+    height: 30px;
+    clear: right;
+    float: right;
+    padding: 10px;
+}
+@media all and (max-width:650px) {
+    .main{
+        width: 100%;
+    }
+}
+.main1{
+    width: auto;
+    height: 45px;
+    border-bottom: 1.5px solid gainsboro;
+}
+.li{
+    height: 45px;
+    float: left;
+    width: 65%;
+}
+.li>ul{
+    width: 65%;
+    display: flex;
+}
+.li>ul>li{
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+}
+.li>ul>li>a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+.icon1{
+    width: 15%;
+    clear: right;
+    float: right;
+    display: flex;
+}
+.icon1>i{
+    padding: 10px;
+    display: inline;
+}
+@media only screen and (max-width:650px) {
+    .main1,.li,.icon1{
+        width: 100%;
+    }
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+}
+.cl1{
+    height: auto;
+    float: left;
+    display: inline;
+    width: 850px;
+}
+.cl1>marquee>img{
+    max-width: 100%;
+    height: 500px; 
+    display: inline-block;
+}
+.cl2{
+    height: auto;
+    width: 450px;
+    clear: right;
+    float: right;
+    display: inline;
+}
+.cl2>img{
+    max-width: 100%;
+    height: 500px;
+    display: inline-block;
+}
+@media screen and (max-width:660px){
+    .img{
+        width: 100%;
+    }
+    .cl2>img{
+        padding: 10px
+    };
+}
+.h1{
+    height: auto;
+    margin: 30px;
+    font-weight: 100;
+}
+.cl3{
+    color: rgb(128, 10, 10);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20;
+}
+.p{
+    color: rgb(24, 19, 19);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14;
+    text-align: center;
+    margin: 0px 60px;
+    padding: 0px 60px;
+}
+@media only screen and (max-width:860px){
+    .h1{
+        width: 100%;
+    }
+}
+.cl4{
+    padding: 20px;
+    display: block;
+}
+.h{
+    width: 65%;
+    display: inline;
+    float: left;
+}
+.h>h1{
+    color: rgb(109, 1, 1);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28;
+    font-weight: 500;
+}
+.h>p{
+    color: rgba(0, 0, 0, 0.685);
+}
+.button{
+    clear: right;
+    float: right;
+    margin: auto;
+    display: inline;
+}
+.button>button{
+    height: 40px;
+    width: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17;
+    background: rgb(109, 1, 1);
+    color: white;
+    border: 1.5px solid rgb(109, 1, 1);
+    border-radius: 10px;
+}
+@media only screen and (max-width:650px){
+    .cl4,.h,.button{
+        width: 100%;
+        text-align: center;
+    }
+}
+.cl5{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    display: inline-block;
+}
+.img1{
+    float: left;
+    width: 50%;
+    height: auto;
+    display: inline;
+}
+.img1>img{
+    width: 650px;
+    height: 580px;
+    display: inline;
+}
+.img2{
+    clear: right;
+    float: right;
+    width: 49%;
+    display: inline;
+    margin: auto;
+}
+.img2>img{
+    width: 300px;
+    height: 280px;
+    padding: 5px;
+}
+@media only screen and (max-width:650px) {
+    .cl5,.img1{
+        width: 100%;
+    }
+    .img1>img{
+        width: 100%;
+    }
+    .img2{
+        display: inline-block;
+        clear: left;
+        float: left;
+    }
+    .img2>img{
+        width: 240px;
+        height: 220px;
+        padding: 5px;
+        display: inline;
+    }
+}
+.img3{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+.img3>img{
+    width: 100%;
+    height: 250px;
+}
+@media only screen and (max-width:650px){
+    .img3>img{
+        width: 480px;
+        height: 50px;
+    }
+}
+.img4{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+}
+.i1{
+    width: 51%;
+    height: auto;
+    float: left;
+    display: inline;
+}
+.i1>img{
+    width: 670px;
+    height: 470px;
+    display: inline;
+}
+.i2{
+    height: auto;
+    clear: right;
+    float: right;
+    width: 45%;
+    display: inline;
+}
+.i2-1{
+    display: inline-block;
+}
+.i2-1>h1{
+    color: rgb(78, 9, 9);
+    font-family:monospace;
+    font-size: 28;
+    font-weight: 520;
+    text-align: justify;
+    display: inline;
+    height: 40px;
+    width: 350px;
+
+}
+.i2-1>p{
+    color: rgba(15, 9, 9, 0.877);
+    font-size: 18;
+}
+.but{
+    float: right;
+    clear: right;
+    display: inline;
+    padding-right: 10px;
+
+}
+.but>button{
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17;
+    background: rgb(109, 1, 1);
+    color: white;
+    border: 1.5px solid rgb(109, 1, 1);
+}
+.i3{
+    height: auto;
+    width: auto;
+    padding: 15px 10px;
+    z-index: 2;
+}
+.i3>marquee>{
+    display: inline;
+    width: 950px;
+}
+@media only screen and (max-width:650px) {
+    .img4{
+        width: 100%;
+    }
+    .img4>img,.i2{
+        width: 100%;
+    }
+    .i2{
+        padding-top: 10px;
+    }
+}
+.img5{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.img5>img{
+    height: 200px;
+    width: 100%;
+    display: inline;
+}
+@media only screen and (max-width:650px){
+    .img5{
+        width: 480px;
+        height: 170px;
+    }
+}
+.cl6{
+    width: auto;
+    height: auto;
+    display: block;
+    display: flex;
+    margin: auto;
+}
+.cl6-1{
+    display: inline;
+    height: 100px;
+    width: 300px;
+    border: 20px solid white;
+    background: rgba(241, 238, 238, 0.932);
+    padding: 5px;
+}
+.png{
+    float: left;
+}
+.png>img{
+    width: 70px;
+    padding: 5px;
+}
+.cl6-2{
+    display: inline;
+    width: 300px;
+    border: 20px solid white;
+    background: rgba(241, 238, 238, 0.932);
+    padding: 5px;
+}
+.png1{
+    float: left;
+}
+.png1>img{
+    width: 70px;
+    padding: 5px;
+}
+.cl6-3{
+    display: inline;
+    height: 100px;
+    width: 300px;
+    border: 20px solid white;
+    background: rgba(241, 238, 238, 0.932);
+    padding: 5px;
+}
+.png2{
+    float: left;
+}
+.png2>img{
+    width: 70px;
+    padding: 5px;
+}
+.cl6-4{
+    display: inline;
+    height: 100px;
+    width: 300px;
+    border: 20px solid white;
+    background: rgba(241, 238, 238, 0.932);
+    padding: 5px;
+}
+.png3{
+    float: left;
+}
+.png3>img{
+    width: 70px;
+    padding: 5px;
+}
+@media only screen and (max-width:650px) {
+    .cl6{
+        width: 100%;
+        display: flex;
+    }
+}
+.cl7{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    background: rgba(241, 238, 238, 0.932);
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+.clli{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+.clli>ul{
+    width: 100%;
+}
+.clli>ul>li{
+    display: inline;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+}
+.clli>ul>li>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+}
+.clicon{
+    height: 20px;
+    padding: 20px 0px 0px 0px;
+    display: inline-block;
+}
+.clicon>i{
+    display: inline;
+    padding: 10px;
+}
+@media only screen and (max-width:650px){
+    .cl6{
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+}
+.footer{
+    background: rgb(119, 18, 18);
+    width: auto;
+    height: 40px;
+    color: white;
+}
+.f1{
+    float: left;
+    display: inline;
+    padding: 10px;
+    font-size: small;
+}
+.f2{
+    clear: right;
+    float: right;
+    display: inline;
+    padding: 10px;
+    font-size: small;
+}
+@media only screen and (max-width:650px) {
+    .cl7{
+        width: 100%;
+    }
+    .cl7>.clli{
+        width: 100%;
+    }
+}
+button,.icon,.icon1:hover{
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
